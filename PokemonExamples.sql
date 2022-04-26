@@ -3,8 +3,11 @@
 
 -- Once the table is created you can cast the boolean values of legendary and mega evolution 
 -- by going to the table, clicking properties and changing the data type from int4 to bool. Save using 
--- ctrl + s and click persist. This step isn't directly necessary, it's just useful for convert the values of 0 and 1
+-- ctrl + s and click persist. This step isn't directly necessary, it's just useful for converting the values of 0 and 1
 -- to true and false respectively. If you choose to ignore this step your queries will vary slightly
+
+-- You may have to utilize the "" notation for some columns names since DBeaver sometimes gets a little funky with column names that are keywords, such as "name"
+-- So be cognizant of that and prepared to alter your query
 
 
 -- Add the query directly under the question
@@ -30,17 +33,11 @@
 
 -- Display the name and special attack stat of the pokemon who has the highest attack stat and is not a legendary
 
--- Display the percentage of pokemon that are legendaries (round to 2 decimal places)
-
--- Display the percentage of pokemon that are mega evolutions (round to 2 decimal places)
-
 -- List the names of all pokemon whose name starts with the letter "K"
 
 -- List the names of all pokemon whose name ends with the letter "e"
 
 -- Count the number of pokemon whose name start with "C" and have "e" as their next to last letter 
-
--- Display the percentage of pokemon who have over 100 defense (round to 2 decimal places)
 
 -- List the names and heights of all legendaries under 2 meters tall
 -- Note: the height is given in meters 
@@ -55,16 +52,27 @@
 
 -- Find the legendary pokemon with the lowest base stats, name that pokemon and list its stat total
 
--- Find the seven heaviest pokemon 
+-- Name the seven heaviest pokemon and their weights
 
 -- Display the names of all pokemon who have a combined attack and special attack over 200
 
--- Display the pokemon who have an absolute difference in defense and special defense less than or equal to 20
+-- Display the names of pokemon who have an absolute difference in defense and special defense greater than or equal to 60
 
 -- Display the name of the pokemon with serial 3931 in uppercase
 
--- Display the second ability of the pokemon with serial 4741 in lowercase letters only 
+-- Display the second ability of the pokemon with serial 4741 in lowercase letters only
 
 -- Count the number of distinct primary abilities
 
 -- List all distinct hidden abilities alphabetically
+
+--Bonus Quetions
+-- Display the percentage of pokemon that are legendaries
+-- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage 
+
+-- Display the percentage of pokemon that are mega evolutions
+-- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage 
+
+-- Display the percentage of pokemon who have over 100 defense
+-- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage
+
