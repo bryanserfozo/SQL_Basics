@@ -33,20 +33,11 @@
 
 -- Display the name and special attack stat of the pokemon who has the highest attack stat and is not a legendary
 
--- Display the percentage of pokemon that are legendaries
--- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage 
-
--- Display the percentage of pokemon that are mega evolutions
--- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage 
-
 -- List the names of all pokemon whose name starts with the letter "K"
 
 -- List the names of all pokemon whose name ends with the letter "e"
 
--- Count the number of pokemon whose name start with "C" and have "e" as their next to last letter
-
--- Display the percentage of pokemon who have over 100 defense
--- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage 
+-- Count the number of pokemon whose name start with "C" and have "e" as their next to last letter 
 
 -- List the names and heights of all legendaries under 2 meters tall
 -- Note: the height is given in meters 
@@ -74,3 +65,14 @@
 -- Count the number of distinct primary abilities
 
 -- List all distinct hidden abilities alphabetically
+
+--Bonus Quetions
+-- Display the percentage of pokemon that are legendaries
+-- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage 
+
+-- Display the percentage of pokemon that are mega evolutions
+-- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage 
+
+-- Display the percentage of pokemon who have over 100 defense
+-- Hint: Use two queries, one to find the number of entries in the dex and then another to calculate the percentage
+
